@@ -1,0 +1,45 @@
+<section class="blk-fp" id="da-fisio-ao-pilates">
+  <div class="wrap">
+    <div class="blk-fp__cab" data-reveal>
+      <p class="blk-fp__eyebrow">Da fisio ao pilates</p>
+      <h2 class="blk-fp__titulo">A alta não é o fim do tratamento</h2>
+      <p class="blk-fp__lead" data-acende>Muita gente trata a tendinite, melhora e para. Meses depois a dor volta. Aqui a fisioterapia e o pilates ficam na mesma sala: quem termina as sessões com a Michele já conhece os aparelhos e segue nas aulas com a Aline, com o histórico da lesão na mão de quem dá a aula.</p>
+    </div>
+    <ol class="blk-fp__fases">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-fp__n">1</span>
+        <h3>Tratar a dor</h3>
+        <p>Avaliação, plano de sessões e as técnicas que o caso pede: liberação, agulhamento, laser, exercício orientado.</p>
+      </li>
+      <li data-reveal style="--d:110ms">
+        <span class="blk-fp__n">2</span>
+        <h3>Fortalecer</h3>
+        <p>Pilates nos aparelhos, com carga e postura acompanhadas de perto. É o que segura o resultado.</p>
+      </li>
+      <li data-reveal style="--d:220ms">
+        <span class="blk-fp__n">3</span>
+        <h3>Manter em casa</h3>
+        <p>Exercícios específicos enviados em vídeo, para fazer antes do treino ou nos dias sem aula.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+<style>
+.blk-fp{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 8%,var(--bg))}
+.blk-fp__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-fp__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-fp__lead{margin:var(--sp-3) 0 0;max-width:46rem;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-fp__fases{list-style:none;margin:var(--sp-5) 0 0;padding:0;display:grid;gap:var(--sp-3);position:relative}
+.blk-fp__fases li{position:relative;background:var(--bg);border-radius:var(--radius);padding:var(--sp-4) var(--sp-3) var(--sp-4)}
+.blk-fp__n{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;border:1.5px solid var(--pulse);font-family:var(--f-display);font-size:1.25rem;color:var(--brand)}
+.blk-fp__fases li:nth-child(2) .blk-fp__n{background:color-mix(in srgb,var(--pulse) 25%,var(--bg))}
+.blk-fp__fases li:nth-child(3) .blk-fp__n{background:var(--brand);border-color:var(--brand);color:var(--bg)}
+.blk-fp__fases h3{margin:var(--sp-2) 0 .3rem;font-family:var(--f-display);font-size:1.4rem;line-height:1.15;color:var(--ink)}
+.blk-fp__fases p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:900px){
+  .blk-fp__fases{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .blk-fp__fases::before{content:"";position:absolute;left:8%;right:8%;top:calc(var(--sp-4) + 1.3rem);height:1px;background:color-mix(in srgb,var(--pulse) 60%,transparent);z-index:0}
+  .blk-fp__fases li{z-index:1;background:transparent;padding-inline:0}
+  .blk-fp__n{background:var(--bg)}
+}
+</style>

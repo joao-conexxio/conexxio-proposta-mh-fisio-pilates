@@ -1,0 +1,39 @@
+<section class="blk-sc" id="sessao-completa">
+  <div class="wrap">
+    <div class="blk-sc__cab" data-reveal>
+      <p class="blk-sc__eyebrow">A sessão completa</p>
+      <h2 class="blk-sc__titulo">Quatro técnicas numa hora só</h2>
+      <p class="blk-sc__lead" data-acende>Para quem treina pesado, trabalha em pé ou carrega tensão a semana inteira. Uma vez por mês, a sessão junta o que costuma ser feito em consultas separadas, e você sai com os exercícios do mês em vídeo no celular.</p>
+    </div>
+    <div class="blk-sc__corpo">
+      <div class="blk-sc__foto" data-reveal>
+        <!--foto:midia/agulhamento.jpg|Fisioterapeuta aplicando agulhamento seco na região lombar-->
+      </div>
+      <ol class="blk-sc__etapas" data-pilha>
+        <li data-reveal style="--d:0ms"><span class="blk-sc__ic"><!--icone:mao--></span><div><h3>Liberação miofascial</h3><p>Solta a musculatura encurtada antes de tudo.</p></div></li>
+        <li data-reveal style="--d:90ms"><span class="blk-sc__ic"><!--icone:seringa--></span><div><h3>Dry needling e acupuntura</h3><p>Agulhas finas nos pontos de gatilho que a mão não alcança.</p></div></li>
+        <li data-reveal style="--d:180ms"><span class="blk-sc__ic"><!--icone:laser--></span><div><h3>Laser</h3><p>Para inflamação e recuperação do tecido.</p></div></li>
+        <li data-reveal style="--d:270ms"><span class="blk-sc__ic"><!--icone:coluna--></span><div><h3>Quiropraxia</h3><p>Ajustes na coluna e nas articulações para fechar a sessão com o corpo alinhado.</p></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+<style>
+.blk-sc{padding-block:var(--sp-section)}
+.blk-sc__eyebrow{margin:0 0 var(--sp-2);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);font-weight:600}
+.blk-sc__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-sc__lead{margin:var(--sp-3) 0 0;max-width:44rem;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+.blk-sc__corpo{margin-top:var(--sp-5);display:grid;gap:var(--sp-4)}
+.blk-sc__foto{margin:0;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3}
+.blk-sc__foto .foto{margin:0;height:100%}.blk-sc__foto img{width:100%;height:100%;object-fit:cover;display:block}
+.blk-sc__etapas{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-2);counter-reset:sc}
+.blk-sc__etapas li{display:grid;grid-template-columns:auto 1fr;gap:var(--sp-2);align-items:start;padding:var(--sp-3);border-radius:var(--radius);background:color-mix(in srgb,var(--brand) 7%,var(--bg));border-left:3px solid var(--pulse)}
+.blk-sc__ic{display:grid;place-items:center;width:2.75rem;height:2.75rem;border-radius:50%;background:var(--brand);color:var(--bg)}
+.blk-sc__ic svg{width:1.35rem;height:1.35rem}
+.blk-sc__etapas h3{margin:0 0 .2rem;font-family:var(--f-display);font-size:1.3rem;line-height:1.15;color:var(--ink)}
+.blk-sc__etapas p{margin:0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+@media (min-width:900px){
+  .blk-sc__corpo{grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center}
+  .blk-sc__foto{aspect-ratio:4/5}
+}
+</style>

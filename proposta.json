@@ -1,0 +1,379 @@
+{
+  "slug": "mh-fisio-pilates",
+  "negocio": {
+    "nome": "MH Fisioterapia e Pilates",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547999052160",
+    "telefone": "(47) 99905-2160",
+    "funcionamento": {
+      "seg": "08:00-20:00",
+      "ter": "08:00-19:30",
+      "qua": "08:00-19:30",
+      "qui": "08:00-20:00",
+      "sex": "08:00-18:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Vila Real · Balneário Camboriú",
+        "endereco": "Rua Dom Miguel, 381, sala térrea – Vila Real, Balneário Camboriú – SC, 88337-140",
+        "telefone": "(47) 99905-2160",
+        "horario": "Segunda e quinta, 8h às 20h · terça e quarta, 8h às 19h30 · sexta, 8h às 18h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#5E6E55",
+    "brand2": "#45523E",
+    "ink": "#23281F",
+    "bg": "#F8F6F1",
+    "pulse": "#C2A266",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "DM Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Fisio e pilates",
+            "href": "#da-fisio-ao-pilates"
+          },
+          {
+            "texto": "Equipe",
+            "href": "#equipe"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Fisioterapia e pilates · Vila Real, Balneário Camboriú",
+        "h1": "Da dor ao pilates",
+        "lead": "Fisioterapia para lesão, pós-operatório e dor que não passa, e aulas de pilates nos aparelhos para o corpo não voltar a doer. Tudo na mesma sala da Rua Dom Miguel.",
+        "cta": "Marcar avaliação pelo WhatsApp",
+        "ctaSecundario": "Ver os tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/studio.jpg",
+        "imagemAlt": "Sala de pilates da MH, com cadillac, ladder barrel e piso de madeira",
+        "tarja": [
+          "5,0 no Google, 96 avaliações",
+          "Fisioterapia e pilates na mesma casa",
+          "Há seis anos cuidando de dor e movimento",
+          "Segunda a sexta, a partir das 8h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Fisioterapia ortopédica",
+          "Pós-operatório",
+          "Pilates nos aparelhos",
+          "Dry needling",
+          "Quiropraxia",
+          "Liberação miofascial"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "data": {
+        "eyebrow": "Quem cuida",
+        "citacao": "A dor física quase nunca é só física.",
+        "autor": "MH Fisioterapia e Pilates",
+        "texto": [
+          "Tem quem chegue depois de uma cirurgia, sem saber se vai voltar a treinar. Tem quem chegue cansada, com a lombar travada de tanto tempo sentada. A primeira sessão é para ouvir e explicar cada procedimento antes de fazer.",
+          "Consultório e estúdio dividem o mesmo endereço. A fisioterapeuta que avalia acompanha até o fim, e a equipe conhece cada aluno pelo nome."
+        ],
+        "imagem": "midia/consultorio.jpg",
+        "imagemAlt": "Consultório da MH com maca, parede verde e armários claros"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que tratamos",
+        "lead": "Toda história começa com uma avaliação. Dela sai o plano: quantas sessões, com que frequência e o que fazer em casa.",
+        "itens": [
+          {
+            "nome": "Fisioterapia ortopédica e esportiva",
+            "descricao": "Tendinite, dor no ombro, no joelho, na coluna. Lesão de corrida, de vôlei, de academia. Tratamento da origem, não só de onde dói.",
+            "icone": "osso",
+            "imagem": "midia/consultorio-luz.jpg"
+          },
+          {
+            "nome": "Pós-operatório",
+            "descricao": "Acompanhamento desde a liberação do cirurgião até a volta à rotina, com cada etapa explicada antes de acontecer.",
+            "icone": "coluna"
+          },
+          {
+            "nome": "Pilates nos aparelhos",
+            "descricao": "Cadillac, chair e ladder barrel, com a postura acompanhada de perto. Para fortalecer, corrigir a postura, render mais no esporte e passar a gestação com menos dor.",
+            "icone": "spa",
+            "imagem": "midia/aparelhos.jpg"
+          },
+          {
+            "nome": "Dry needling e acupuntura",
+            "descricao": "Agulhas finas nos pontos de tensão que a massagem não solta. Usado sozinho ou dentro da sessão completa.",
+            "icone": "seringa",
+            "imagem": "midia/agulhamento-2.jpg"
+          },
+          {
+            "nome": "Quiropraxia e liberação",
+            "descricao": "Ajustes articulares e liberação miofascial para a dor que volta sempre no mesmo lugar.",
+            "icone": "mao"
+          },
+          {
+            "nome": "Reiki",
+            "descricao": "Para quem quer uma sessão de relaxamento e descanso, à parte do tratamento.",
+            "icone": "folha"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/sessao-completa.html"
+    },
+    {
+      "custom": "blocos/fisio-ao-pilates.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "A MH em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "96",
+            "rotulo": "avaliações de pacientes e alunos",
+            "contar": 96
+          },
+          {
+            "valor": "6",
+            "rotulo": "anos atendendo em Balneário Camboriú",
+            "contar": 6
+          },
+          {
+            "valor": "12h",
+            "rotulo": "de atendimento na segunda e na quinta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O espaço",
+        "lead": "Consultório e estúdio na mesma sala térrea, com luz natural e os aparelhos à vista.",
+        "itens": [
+          {
+            "imagem": "midia/studio-luz.jpg",
+            "legenda": "O estúdio de pilates"
+          },
+          {
+            "imagem": "midia/ladder-barrel.jpg",
+            "legenda": "Ladder barrel"
+          },
+          {
+            "imagem": "midia/chair.jpg",
+            "legenda": "Chair e faixas elásticas"
+          },
+          {
+            "imagem": "midia/consultorio-luz.jpg",
+            "legenda": "O consultório"
+          },
+          {
+            "imagem": "midia/fachada.jpg",
+            "legenda": "A entrada, na Rua Dom Miguel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Está com dor e não sabe se é caso de fisio ou de pilates?",
+        "lead": "Conte o que está sentindo. A Michele indica por onde começar e já sugere um horário para a avaliação.",
+        "cta": "Chamar a MH",
+        "contato": "MH Fisioterapia e Pilates",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Tô com tendinite no ombro faz uns meses. Vocês tratam ou eu faço pilates direto?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Tratamos sim. Primeiro a gente faz uma avaliação para ver o ombro, e o pilates entra depois, para fortalecer."
+          },
+          {
+            "de": "paciente",
+            "texto": "Boa. Só consigo depois das 18h."
+          },
+          {
+            "de": "clinica",
+            "texto": "Segunda e quinta vamos até as 20h. Quinta às 18h30 fica bom?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Fica ótimo, obrigada!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Da primeira mensagem à aula de pilates, sem você precisar procurar outro lugar.",
+        "itens": [
+          {
+            "titulo": "Mensagem",
+            "texto": "Conte pelo WhatsApp o que está sentindo e escolha o horário.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação",
+            "texto": "A fisioterapeuta examina, explica o que encontrou e monta o plano de sessões.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Sessões",
+            "texto": "Horários fixos na semana, com exercícios em vídeo para os dias em casa.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "Pilates",
+            "texto": "Com a dor resolvida, a aula de pilates segura o resultado.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "corpo-clinico",
+      "variant": "monograma",
+      "data": {
+        "titulo": "Quem atende",
+        "itens": [
+          {
+            "nome": "Michele Henkemeier",
+            "especialidade": "Fisioterapeuta · fundadora da MH"
+          },
+          {
+            "nome": "Aline",
+            "especialidade": "Pilates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem passou por aqui",
+        "itens": [
+          {
+            "texto": "Minha recuperação pós-cirúrgica foi muito melhor do que eu imaginava. Do início ao fim das sessões ela sempre explicou cada procedimento.",
+            "autor": "Erick P.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "A fisioterapeuta é excelente, estou quase curada da tendinite. Comecei a fazer pilates no local de tanto que gostei.",
+            "autor": "Bia L.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Estou grávida e tenho pouquíssimas dores e bastante disposição. O pilates mudou a minha vida.",
+            "autor": "Bruna A.",
+            "contexto": "Aluna de pilates"
+          },
+          {
+            "texto": "Desde a consulta com a Michele até as aulas de pilates com a Aline, as duas são muito capacitadas e queridas.",
+            "autor": "Ana Julia A.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Perguntas frequentes",
+        "itens": [
+          {
+            "p": "Nunca fiz pilates. Posso começar?",
+            "r": "Pode. A primeira aula começa com uma avaliação de postura e de mobilidade, e os exercícios partem do ponto em que você está."
+          },
+          {
+            "p": "Estou com dor. Começo pela fisio ou pelo pilates?",
+            "r": "Com dor, começa pela fisioterapia. Depois da avaliação a Michele diz quando é seguro passar para o pilates."
+          },
+          {
+            "p": "Grávida pode fazer pilates?",
+            "r": "Com a liberação do seu médico, sim. As aulas são adaptadas a cada fase da gestação."
+          },
+          {
+            "p": "O dry needling dói?",
+            "r": "A agulha é muito fina. No ponto de tensão dá uma fisgada rápida e o músculo solta logo em seguida."
+          },
+          {
+            "p": "Tem acessibilidade?",
+            "r": "Sim. A sala é térrea, com entrada acessível para cadeira de rodas."
+          },
+          {
+            "p": "Qual o horário?",
+            "r": "Segunda e quinta das 8h às 20h, terça e quarta até 19h30, sexta até 18h."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/fachada.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Faz tempo que essa dor está aí?",
+        "lead": "Mande uma mensagem contando o que sente e saia com a avaliação marcada.",
+        "cta": "Marcar avaliação"
+      }
+    },
+    {
+      "id": "footer"
+    }
+  ]
+}
